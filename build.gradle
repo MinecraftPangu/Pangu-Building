@@ -30,10 +30,6 @@ minecraft {
     replace "@MOD_VERSION@", mod_version
 }
 
-task ideaInfo {
-    println(project.sourceSets.main.allSource.srcDirs)
-}
-
 processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
@@ -60,14 +56,6 @@ dependencies {
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {
     sourceCompatibility = targetCompatibility = '1.8'
-}
-
-// Adds FMLCorePlugin manifest
-jar {
-    manifest {
-        attributes 'FMLCorePlugin': 'cn.mccraft.pangu.core.asm.PanguPlugin'
-        attributes 'FMLCorePluginContainsFMLMod': 'true'
-    }
 }
 
 // IDE Runner Settings from https://blog.ustc-zzzz.net/add-jvm-arguments-to-ide-in-forge-mod-projects/
