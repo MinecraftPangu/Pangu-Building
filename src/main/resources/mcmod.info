@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "pangu-building",
+    "name": "Pangu Building",
+    "description": "Building material with chinese culture.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://mccraft.cn/project/pangu_building",
+    "updateUrl": "",
+    "authorList": [
+      "Mouse0w0"
+    ],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["pangu"]
+  }
+]
