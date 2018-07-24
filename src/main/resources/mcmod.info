@@ -1,6 +1,6 @@
 [
   {
-    "modid": "pangu-building",
+    "modid": "pangubuilding",
     "name": "Pangu Building",
     "description": "Building material with chinese culture.",
     "version": "${version}",
