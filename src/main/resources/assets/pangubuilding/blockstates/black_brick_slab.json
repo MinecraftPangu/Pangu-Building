@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "pangubuilding:black_brick_slab_half" },
+    "type=top": { "model": "pangubuilding:black_brick_slab_top" },
+    "type=double": { "model": "pangubuilding:black_brick_block" }
+  }
+}

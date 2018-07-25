@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "pangubuilding:peeled_bamboo_slab_half" },
+    "type=top": { "model": "pangubuilding:peeled_bamboo_slab_top" },
+    "type=double": { "model": "pangubuilding:peeled_bamboo_plank" }
+  }
+}

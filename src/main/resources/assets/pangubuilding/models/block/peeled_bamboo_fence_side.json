@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_side",
+    "textures": {
+        "texture": "pangubuilding:blocks/peeled_bamboo_plank"
+    }
+}

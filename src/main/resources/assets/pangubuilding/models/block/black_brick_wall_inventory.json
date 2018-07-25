@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "pangubuilding:blocks/black_brick_block"
+  }
+}
