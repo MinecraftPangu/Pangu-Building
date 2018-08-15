@@ -47,16 +47,16 @@ public interface PBBlocks {
     @RegBlock({"peeled", "bamboo", "fence", "gate"})
     Block PEELED_BAMBOO_FENCE_GATE = new PGBlockFenceGate(Material.WOOD).setSoundType(SoundType.WOOD).setHardness(2.0F).setResistance(5.0F);
 
-    @RegBlock({"black","brick","block"})
-    Block BLACK_BRICK_BLOCK = new PGBlock(Material.ROCK).setHarvestLevelR("pickaxe",0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
+    @RegBlock({"black", "brick", "block"})
+    Block BLACK_BRICK_BLOCK = new PGBlock(Material.ROCK).setHarvestLevelR("pickaxe", 0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
 
-    @RegBlock({"black","brick", "stairs"})
-    Block BLACK_BRICK_STAIRS = new PGBlockStair(BLACK_BRICK_BLOCK.getDefaultState()).setHarvestLevelReturnBlock("pickaxe",0);
+    @RegBlock({"black", "brick", "stairs"})
+    Block BLACK_BRICK_STAIRS = new PGBlockStair(BLACK_BRICK_BLOCK.getDefaultState()).setHarvestLevelR("pickaxe", 0);
 
-    @RegBlock(value = {"black","brick","slab"},itemBlockClass = PGItemNewSlab.class)
-    Block BLACK_BRICK_SLAB = new PGBlockNewSlab(Material.ROCK).setHarvestLevelR("pickaxe",0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
+    @RegBlock(value = {"black", "brick", "slab"}, itemBlockClass = PGItemNewSlab.class)
+    Block BLACK_BRICK_SLAB = new PGBlockNewSlab(Material.ROCK).setHarvestLevelR("pickaxe", 0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
 
-    @RegBlock({"black","brick","wall"})
-    Block BLACK_BRICK_WALL = new PGBlockWall(Material.ROCK).setHarvestLevelR("pickaxe",0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
-
+    @RegBlock({"black", "brick", "wall"})
+    Block BLACK_BRICK_WALL = new PGBlockWall(Material.ROCK).setHarvestLevelR("pickaxe", 0).setSoundType(SoundType.STONE).setHardness(2.0F).setResistance(10.0F);
+    
 }
